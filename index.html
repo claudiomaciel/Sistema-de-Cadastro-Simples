@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="./index.css" type="text/css" rel="stylesheet"/>
+        <title>Login</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Login</h1>
+            </div>
+
+            <div id="form">
+                <form action="perfil.php" method="POST" id="formulario">
+                    <p><input type="email" name="login" id="iLogin" maxlength="40" size="40" placeholder="E-mail" required/></p>
+                    <p><input type="password" name="senha" id="iLogin" maxlength="20" size="40" placeholder="Senha" required/></p>
+                </form>
+            </div>
+
+            <div id="footer">
+                <input type="submit" value="Login" name="btnlogin" id="iBtnLogin" form="formulario"/>
+                <a href="cadastro.html" id="link">Criar conta</a>
+            </div>
+        </div>
+    </body>
+</html>
